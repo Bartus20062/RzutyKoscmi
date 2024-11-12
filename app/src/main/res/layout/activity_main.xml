@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#F5F5DC">
+
+    <TextView
+        android:text="Gra w Kości Autor:Bartosz Posiła"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rollButton"
+        android:layout_marginVertical="10dp"
+        android:text="RZUĆ KOŚCMI"
+        android:backgroundTint="#D2691E"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp">
+        <TextView
+            android:id="@+id/kosc1"
+            android:text=" ? "
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="9dp"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:background="@color/white" />
+        <TextView
+            android:id="@+id/kosc2"
+            android:text=" ? "
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="9dp"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:background="@color/white" />
+        <TextView
+            android:id="@+id/kosc3"
+            android:text=" ? "
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="9dp"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:background="@color/white" />
+        <TextView
+            android:id="@+id/kosc4"
+            android:text=" ? "
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="9dp"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:background="@color/white" />
+        <TextView
+            android:id="@+id/kosc5"
+            android:text=" ? "
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="9dp"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:background="@color/white" />
+</GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wynik1"
+        android:text="Wynik Tego Losowania: 0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wynik2"
+        android:text="Wynik Gry: 0"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/liczba"
+        android:text="Liczba rzutów: 0"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:text="RESETUJ WYNIK"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#D2691E" />
+
+
+</LinearLayout>
